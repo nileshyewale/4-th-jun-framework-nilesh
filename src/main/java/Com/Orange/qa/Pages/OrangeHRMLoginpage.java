@@ -31,7 +31,8 @@ public class OrangeHRMLoginpage  extends TestBase{
 	
 	@FindBy(xpath = "//a[contains(text(),'Logout')]")
 	WebElement Logout;
-	
+	@FindBy(xpath = "//a[(text(),'Logout')]")
+	WebElement Logout;
 	
 	public OrangeHRMLoginpage() throws IOException {
 				
